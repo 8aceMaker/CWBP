@@ -9,7 +9,7 @@ $servers = ['s4','s6','user9','v1','vid1','video9','z1','rec1'];
 ?>
 	<!--
 
-Camwhores.tv video downloader
+camwhores.video video downloader
 Also works with private vids
 
   __  __           _        _             _____
@@ -35,7 +35,7 @@ Also works with private vids
 
 <div class="container">
 
-<h1>Camwhores.tv private video bypass</h1>
+<h1>camwhores.video private video bypass</h1>
 <form method="post" action="#" class="form-horizontal">
  <div class="form-group">
 <label class="control-label" for="videoURL">Private video link</label>
@@ -53,7 +53,7 @@ Also works with private vids
 if(isset($_POST['sumbitVideoURL'])){
 
 	// Have to be careful with this URL. Might have to change if this specific video gets taken down.
-	$url = "http://www.camwhores.tv/get_file/8/82d37ce62299d92dfea3530bdf343251339ed88e44/930000/930718/930718.mp4/";
+	$url = "http://www.camwhores.video/get_file/8/82d37ce62299d92dfea3530bdf343251339ed88e44/930000/930718/930718.mp4/";
 
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $url);
